@@ -52,31 +52,49 @@ An AI-powered full-stack web application that generates professional business we
 
 ---
 
-## 📁 Project Structure
-
 business-website-builder/
-├── backend/
-│ ├── routes/
-│ │ └── generate.js # Groq AI content generation
-│ ├── server.js # Express server
-│ ├── .env.example # Environment variables template
-│ └── package.json
-│
-└── frontend/
-├── src/
-│ ├── components/
-│ │ ├── Navbar.tsx # Top navigation bar
-│ │ ├── BusinessForm.tsx # Business details input form
-│ │ ├── TemplateSelector.tsx # Template picker
-│ │ └── WebsitePreview.tsx # Live preview + download
-│ ├── types/
-│ │ └── index.ts # TypeScript interfaces
-│ ├── App.tsx # Main app component
-│ ├── main.tsx # Entry point
-│ └── index.css # Global styles
-├── index.html
-└── package.json
 
+├── backend/
+
+│   ├── routes/
+
+│   │   └── generate.js        # Groq AI content generation
+
+│   ├── server.js              # Express server
+
+│   ├── .env.example           # Environment variables template
+
+│   └── package.json
+
+│
+
+└── frontend/
+
+├── src/
+
+│   ├── components/
+
+│   │   ├── Navbar.tsx         # Top navigation bar
+
+│   │   ├── BusinessForm.tsx   # Business details input form
+
+│   │   ├── TemplateSelector.tsx # Template picker
+
+│   │   └── WebsitePreview.tsx # Live preview + download
+
+│   ├── types/
+
+│   │   └── index.ts           # TypeScript interfaces
+
+│   ├── App.tsx                # Main app component
+
+│   ├── main.tsx               # Entry point
+
+│   └── index.css              # Global styles
+
+├── index.html
+
+└── package.json
 ---
 
 ## 🚀 Getting Started
